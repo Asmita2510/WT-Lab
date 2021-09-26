@@ -1,0 +1,9 @@
+<p>contact works!</p>
+<div *ngIf="isShow">
+<ul *ngFor="let data of product">
+    <li [ngClass]="data.id>2?'abc':'xyz'">{{data.id}}</li>
+    <li>{{data.name}}</li>
+    <li [ngStyle]="{'color':data.rate>1000?'red':'green'}">{{data.rate}}</li>   
+</ul>
+</div>
+<button (click)="showdata()">Show Data</button>

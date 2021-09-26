@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  names:string="abcd";
+  num1:number=12;
+  flags:boolean=true;
+  data="gjasvdjagd";
+
   title = 'myfirstapp';
 }
